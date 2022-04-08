@@ -1,0 +1,97 @@
+Compnay: NA
+Author: Nitish kumar Sharma
+	(ECE Engineer)
+
++--------------------+------------------------+
+| Command for Database creation |
++--------------------+------------------------+
+>> For Employ details
+
+_______Script___________
+
+CREATE DATABASE jivans;
+USE jivans;
+CREATE TABLE employ
+(
+fname varchar (30),
+Lastname varchar (30),
+email varchar (30),
+role varchar (30),
+phone varchar (30),
+streetaddress varchar (80),
+city varchar (50),
+zipcode varchar (10),
+country varchar (30)
+);
+
++---------------------------+----------------------------+
++---------------------------+----------------------------+
+
+>> for user:
+
+CREATE TABLE user
+(
+    id varchar (30),
+    userName varchar (30),
+    firstName varchar (30),
+    lastName varchar (30),
+    email varchar (30),
+    phone varchar (30),
+    role varchar (30),
+    address varchar (30),
+    city varchar (30),
+    zipcode varchar (30),
+    status varchar (30)
+);
+
++---------------------------+----------------------------+
++---------------------------+----------------------------+
+
+>> for credential:
+
+CREATE TABLE credential
+(
+    userName varchar (30),
+    password varchar (30),
+    token varchar (30),
+    sat varchar (30),
+    emailOTP varchar (30),
+    phoneOTP varchar (30),
+    loginAttempt varchar (30),
+    status varchar (30)
+);
+
+
++---------------------------+----------------------------+
++---------------------------+----------------------------+
+
+>> for product:
+
+CREATE TABLE product
+(
+    productName varchar (30),
+    productDescription varchar (30),
+    price varchar (30),
+    category varchar (30),
+    country varchar (30),
+    streetAddress varchar (30),
+    city varchar (30),
+    state varchar (30),
+    zipcode varchar (30),
+    status varchar (30),
+
+);
+
++---------------------------+----------------------------+
++---------------------------+----------------------------+
+
+>> for file:
+
+CREATE TABLE
+(
+    fileName
+    filePath
+    status
+)
+-----------After Deploymet please provide Login credential To use in API-------------
+

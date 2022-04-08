@@ -1,0 +1,35 @@
+whatsapp            --->> complete
+user/login          --->> complete
+user/register       --->> complete
+user/adduser        --->> complete
+user/updateuser     --->> no
+user/deleteuser     --->> no [Today Task]  2
+user/dashboard      --->> no
+user/forgotpassword --->> complete
+user/emailotp       --->> complete
+user/phoneopt       --->> complete
+user/profileupdate  --->> no
+
+
+product/addproduct      --->> complete
+product/updateproduct   --->> complete
+product/deleteproduct   --->> complete
+product/getproduct      --->> complete GET
+product/getallproducts  --->> complete POST
+
+
+fileupload --->> no
+
++----------------------------+
+# Add product
+1. name
+2. description
+3. category
+4. brand
+5. maxprice
+6. minprice
+7. offer
+8. offerduration
+9. specification
+
++----------------------------+
